@@ -1,26 +1,46 @@
 # Bobby Shmurda
 
 ![Bobby Shmurda](https://raw.githubusercontent.com/sween/bobby-shmurda/master/assets/bobby-shmurda.png)
-> ...**About a Week Ago**. "     -Bobby Shmurda, GS9 Records
+> ##...**About A Week Ago**. "     
+> -Bobby Shmurda, GS9 Records
                  
 ## Overview
 
-**Bobby Shmurda**, the github repository that raises the bar for "hello world" for the next generation of *developers*.  
+**Bobby Shmurda**, the github repository that raises the bar for "hello world" for the next generation of *developers*.  We are in a world where the understanding of a programming language cannot be understood by a simple return of io to your screen or browser or phone or internet of thing output device.  Sooner or later, if you sleep with a language long enough, you are going to have to fuck with time.
 
-### About a Week Ago
+Here you will find a collection of examples of various programming languages that marshall time as an introduction.  
 
-#### Strong and Emphasize 
+_**The Bobby Shmurda example will specifically return a string value of what time it was a week ago, enumerated from the current date and time for the target programming langauge.**_
 
-**strong** or __strong__ ( Cmd + B )
+Each programming language is represented in a single root folder of the repository.  The example with the most github stars, is represented in the root of the directory and highlighted in the readme for that directory.  The example provided for representation should adhere to the following ground rules as described below.
 
-*emphasize* or _emphasize_ ( Cmd + I )
 
-**Sometimes I want a lot of text to be bold.
-Like, seriously, a _LOT_ of text**
+### AboutAWeekAgo
+Committers will be crafting a runnable example in their programming language of choice.  
+#### Syntax
+The premise being the runnable component of the method, routine, or whatever be represented in the preferred syntax for that programming language.  For example, if I were to be committing an example for LISP, the method name would be represented like the following:
 
-#### Blockquotes
+    ;;; BobbyShmurda.lsp
 
-> Right angle brackets &gt; are used for block quotes.
+	;;; =========== BOBBY SHMURDA SIMULATION ============== ;;;
+
+    ;;; This function returns the string value of a date that was about a week ago 
+
+    (DEFUN ABOUTAWEEKAGO ()
+    ;;; LISPY CODE
+    "Weekday Month DayofMonth, Year" // Ex. Tuesday September 11, 2001
+    ) 
+
+#### The Return Value
+Yeah, look above.  This is how we are going to roll for now, but the rules may change.  Note Bobby's operative word of "About", so let's start with no representation of precision of hour/minute/second and go with this single rule:
+
+If you were going to the club, and somebody said they were going to pick you up "In About 2 Hours" and then showed up in like 3 hours would you be pissed?  Is 8 days a week? This is the accuracy we are expecting out of the example and the internet will judge you anyway so WTF.
+
+Return type is a string with a value that must match:
+
+    "Weekday Month DayofMonth, Year" // Ex. Tuesday September 11, 2001
+#### Can I use a C3PO?
+Yeah, if you want to use a commercial third party off the shelf to accomplish this task then go right the hell ahead.  However, the
 
 #### Links and Email
 
@@ -51,40 +71,7 @@ Inline code are surround by `backtick` key. To create a block code:
 
 ####  Ordered Lists
 
-Ordered lists are created using "1." + Space:
 
-1. Ordered list item
-2. Ordered list item
-3. Ordered list item
-
-#### Unordered Lists
-
-Unordered list are created using "*" + Space:
-
-* Unordered list item
-* Unordered list item
-* Unordered list item 
-
-Or using "-" + Space:
-
-- Unordered list item
-- Unordered list item
-- Unordered list item
-
-#### Hard Linebreak
-
-End a line with two or more spaces will create a hard linebreak, called `<br />` in HTML. ( Control + Return )  
-Above line ended with 2 spaces.
-
-#### Horizontal Rules
-
-Three or more asterisks or dashes:
-
-***
-
----
-
-- - - -
 
 
 ### Extra Syntax
@@ -105,40 +92,14 @@ Wrap with 2 tilde characters:
 ~~Strikethrough~~
 
 
-#### Fenced Code Blocks
 
-Start with a line containing 3 or more backticks, and ends with the first line with the same number of backticks:
+### FAQ
 
-```
-Fenced code blocks are like Stardard Markdown’s regular code
-blocks, except that they’re not indented and instead rely on
-a start and end fence lines to delimit the code block.
-```
+Unordered list are created using "*" + Space:
 
-#### Tables
-
-A simple table looks like this:
-
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
-
-If you wish, you can add a leading and tailing pipe to each line of the table:
-
-| First Header | Second Header | Third Header |
-| ------------ | ------------- | ------------ |
-| Content Cell | Content Cell  | Content Cell |
-| Content Cell | Content Cell  | Content Cell |
-
-Specify alignment for each column by adding colons to separator lines:
-
-First Header | Second Header | Third Header
-:----------- | :-----------: | -----------:
-Left         | Center        | Right
-Left         | Center        | Right
-
-
+* Unordered list item
+* Unordered list item
+* Unordered list item 
 
 ### And more?
 

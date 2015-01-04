@@ -39,72 +39,64 @@ If you were going to the club, and somebody said they were going to pick you up 
 Return type is a string with a value that must match:
 
     "Weekday Month DayofMonth, Year" // Ex. Tuesday September 11, 2001
-#### Can I use a C3PO?
-Yeah, if you want to use a commercial third party off the shelf to accomplish this task then go right the hell ahead.  However, the
+#### C3PO
+Yeah, if you want to use a commercial third party off the shelf to accomplish this task then go right the hell ahead.  However, the internet hardly tolerates this, and you should show some instructions on how to run it and by me a damn license.
 
-#### Links and Email
+#### Third Party Libraries
+Yeah, again the puresests will eat you alive, naturally, provide instructions on how to include the library.
 
-An email <example@example.com> link.
+If your submission is actually a library, then show the way and let the github stars lead the way.  This would be the dope BTW.
 
-Simple inline link <http://chenluois.com>, another inline link [Smaller](http://25.io/smaller/), one more inline link with title [Resize](http://resizesafari.com "a Safari extension").
+###Contributing
+Get it.
+    
+    git clone https://github.com/sween/bobby-shmurda.git --recursive
+    cd bobby-shmurda
+   
+Add a remote.
 
-A [reference style][id] link. Input id, then anywhere in the doc, define the link with corresponding id:
+	git remote add upstream https://github.com/joindin/joind.in.git
+	git remote   (this will list out your remotes, showing the new one we added)
+	
+Stay Up to date.
 
-[id]: http://25.io/mou/ "Markdown editor on Mac OS X"
+	git fetch upstream
+	git merge upstream/master
 
-Titles ( or called tool tips ) in the links are optional.
+Make it your own.
 
-#### Images
+	git branch   (lists your current branches)
+	git branch my_new_shmurdacode   (makes a new branch called my_new_shmurdacode)
+	git checkout my_new_shmurdacode
+	
+Ah, push it.  Ah, push it.
 
-An inline image ![Smaller icon](http://25.io/smaller/favicon.ico "Title here"), title is optional.
+	git push origin my_new_shmurdacode
+	
 
-A ![Resize icon][2] reference style image.
+Create a pull request, and we will take a look!
 
-[2]: http://resizesafari.com/favicon.ico "Title"
-
-#### Inline code and Block code
-
-Inline code are surround by `backtick` key. To create a block code:
-
-	Indent each line by at least 1 tab, or 4 spaces.
-    var Mou = exactlyTheAppIwant; 
-
-####  Ordered Lists
-
-
-
-
-### Extra Syntax
-
-#### Footnotes
-
-Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
-
-That's some text with a footnote.[^1]
-
-[^1]: And that's the footnote.
-
-
-#### Strikethrough
-
-Wrap with 2 tilde characters:
-
-~~Strikethrough~~
-
+### I still dont know who Bobby Shmurda is
+Check out Bobby's work over at <http://www.gs9records.com/>, on Facebook at <https://www.facebook.com/pages/GS9-Music/716539678408666> or the flagship track over on YouTube <https://www.youtube.com/watch?v=vJwKKKd2ZYE>.  Follow [@bobbyshmurdags9](https://twitter.com/bobbyshmurdags9) on Twitter for the latest, which is ironically about a week ago.
 
 
 ### FAQ
 
-Unordered list are created using "*" + Space:
+Please refer to this faq before trolling.
 
-* Unordered list item
-* Unordered list item
-* Unordered list item 
+* How long will it take to review my pull request?
 
-### And more?
+**About a Week Or So**
+ 
 
-Don't forget to check Preferences, lots of useful options are there.
+### I have a complaint
 
-Follow [@bobbyshmurdags9](https://twitter.com/mou) on Twitter for the latest news.
+Please contact our CEO:
 
-For feedback, use the menu `Help` - `Send Feedback`
+![Bobby Shmurda](https://raw.githubusercontent.com/sween/bobby-shmurda/master/assets/weikago.jpg)
+
+
+### Who did this?
+
+This is a yearly Holday Hack effort brought to you by [Ron Sweeney](http://www.github.com/sween), [Brian Barto](http://www.github.com/bartobri) and [Quentin Sweeney](http://www.twitter.com/qtsweeney) for the sole reason that the [IMUDuino](http://www.femtoduino.com/spex/imuduino-btle) didnt show up in time.
+

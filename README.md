@@ -40,7 +40,7 @@ Return type is a string with a value that must match:
 
     "Weekday Month DayofMonth, Year" // Ex. Tuesday September 11, 2001
 #### C3PO
-Yeah, if you want to use a commercial third party off the shelf to accomplish this task then go right the hell ahead.  However, the internet hardly tolerates this, and you should show some instructions on how to run it and by me a damn license.
+Yeah, if you want to use a commercial third party off the shelf to accomplish this task then go right the hell ahead.  However, the internet hardly tolerates this, and you should show some instructions on how to run it and buy me a damn license.
 
 #### Third Party Libraries
 Yeah, again the puresests will eat you alive, naturally, provide instructions on how to include the library.

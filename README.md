@@ -55,7 +55,7 @@ Get it.
    
 Add a remote.
 
-	git remote add upstream https://github.com/joindin/joind.in.git
+	git remote add upstream https://github.com/sween/bobby-shmurda.git
 	git remote   (this will list out your remotes, showing the new one we added)
 	
 Stay Up to date.

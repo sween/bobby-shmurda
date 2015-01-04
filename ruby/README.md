@@ -1,4 +1,4 @@
-# Shmurda.pm
+# bobbyshmurda.rb  
 
 ![Bobby Shmurda](https://raw.githubusercontent.com/sween/bobby-shmurda/master/assets/bobby-shmurda.png)
 

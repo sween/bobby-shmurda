@@ -21,35 +21,35 @@ BEGIN {
 sub aboutAWeekAgo {
 	my $self = shift;
 	
-	my %weekdays = (
-		0 => 'Sunday',
-		1 => 'Monday',
-		2 => 'Tuesday',
-		3 => 'Wednesday',
-		4 => 'Thursday',
-		5 => 'Friday',
-		6 => 'Saturday',
+	my @weekdays = (
+		'Sunday',
+		'Monday',
+		'Tuesday',
+		'Wednesday',
+		'Thursday',
+		'Friday',
+		'Saturday',
 	);
 	
-	my %months = (
-		0 => 'January',
-		1 => 'February',
-		2 => 'March',
-		3 => 'April',
-		4 => 'May',
-		5 => 'June',
-		6 => 'July',
-		7 => 'August',
-		8 => 'September',
-		9 => 'October',
-		10 => 'November',
-		11 => 'December',
+	my @months = (
+		'January',
+		'February',
+		'March',
+		'April',
+		'May',
+		'June',
+		'July',
+		'August',
+		'September',
+		'October',
+		'November',
+		'December',
 	);
 	
 	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time - 604800);
 	$year += 1900;
-	$mon = $months{$mon};
-	$wday = $weekdays{$wday};
+	$mon = $months[$mon];
+	$wday = $weekdays[$wday];
 		
 	return "$wday $mon $mday, $year ";
 }
